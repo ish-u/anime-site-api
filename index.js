@@ -14,7 +14,7 @@ app.engine('handlebars', exphbs({defaultLayout : 'main'}));
 app.set('view engine', 'handlebars');
 
 // defining PORT number
-const PORT = 5000 || process.env.PORT;
+const PORT = 3000 || process.env.PORT;
 
 //routes for API
 app.use('/api', api);
